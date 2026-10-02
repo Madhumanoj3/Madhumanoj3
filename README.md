@@ -73,7 +73,7 @@
 <tr>
 <td width="50%" align="center">
   <h4>🏆 Hackathons</h4>
-  <p><b>SIH · Robovanta · K.L.N.</b><br /><sub>Prototypes built under pressure</sub></p>
+  <p><b>SIH · Technova · Robovanta · K.L.N.</b><br /><sub>Prototypes built under pressure</sub></p>
 </td>
 <td width="50%" align="center">
   <h4>🤝 Collaboration</h4>
@@ -206,6 +206,7 @@
 <h2 align="center">🏆 Achievements &amp; Activities</h2>
 
 <table align="center">
+<tr><td>🚀</td><td><b>Technova Hackathon</b> — Dhanalakshmi Srinivasan Engineering College</td></tr>
 <tr><td>🏅</td><td><b>Robovanta 24-Hour Hackathon</b> — Pixor Robotics Club</td></tr>
 <tr><td>🎯</td><td><b>Inter-College Hackathon Participant</b> — K.L.N. College of Engineering</td></tr>
 <tr><td>💡</td><td><b>SIH 2025 Internal Hackathon Participant</b></td></tr>

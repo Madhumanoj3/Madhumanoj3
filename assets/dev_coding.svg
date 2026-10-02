@@ -10,8 +10,8 @@
       <stop offset="100%" stop-color="#2563eb" />
     </linearGradient>
     <linearGradient id="chair" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#8b5cf6" />
-      <stop offset="100%" stop-color="#4c1d95" />
+      <stop offset="0%" stop-color="#6b7280" />
+      <stop offset="100%" stop-color="#1f2937" />
     </linearGradient>
     <linearGradient id="lid" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#1c1f2e" />
@@ -127,9 +127,9 @@
   <!-- Chair -->
   <g>
     <path d="M212 332 C206 214 236 150 286 132 L434 132 C484 150 514 214 508 332 Z" fill="url(#chair)" />
-    <path d="M236 332 C232 226 256 170 296 152 L424 152 C464 170 488 226 484 332 Z" fill="#2e1065" opacity="0.55" />
-    <path d="M212 332 C206 214 236 150 286 132 L434 132 C484 150 514 214 508 332" fill="none" stroke="#f472b6" stroke-width="3" stroke-opacity="0.85" />
-    <rect x="334" y="124" width="52" height="14" rx="7" fill="#6d28d9" stroke="#f472b6" stroke-width="2" />
+    <path d="M236 332 C232 226 256 170 296 152 L424 152 C464 170 488 226 484 332 Z" fill="#0b0f17" opacity="0.6" />
+    <path d="M212 332 C206 214 236 150 286 132 L434 132 C484 150 514 214 508 332" fill="none" stroke="#ef4444" stroke-width="3.5" stroke-opacity="0.95" />
+    <rect x="334" y="124" width="52" height="14" rx="7" fill="#374151" stroke="#ef4444" stroke-width="2" />
   </g>
 
   <!-- Character -->
@@ -178,7 +178,7 @@
 
     <!-- Laptop base -->
     <path d="M262 326 L458 326 L446 306 L274 306 Z" fill="#1a1d2c" stroke="#2d3142" stroke-width="1.5" />
-    <!-- Laptop lid (back): opens, works, closes -->
+    <!-- Laptop lid (back): hands lift it open and push it shut -->
     <g transform="translate(0,310)">
       <g>
         <animateTransform attributeName="transform" type="scale" dur="9.0s" repeatCount="indefinite" calcMode="spline"
@@ -194,24 +194,44 @@
       </g>
     </g>
 
-    <!-- Arms + hands: type only while the laptop is open -->
-    <path d="M264 262 Q250 306 296 322" fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
-      <animate attributeName="d" dur="9.0s" repeatCount="indefinite" keyTimes="0.0;0.1889;0.2056;0.2222;0.2389;0.2556;0.2722;0.2889;0.3056;0.3222;0.3389;0.3556;0.3722;0.3889;0.4056;0.4222;0.4389;0.4556;0.4722;0.4889;1.0" values="M264 262 Q250 306 296 322;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 306 296 322" />
+    <!-- Arms and hands -->
+    <path d="M264 262 Q250 310 298 322" fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="d" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.0278;0.0889;0.1889;0.2333;0.25;0.2667;0.2833;0.3;0.3167;0.3333;0.35;0.3667;0.3833;0.4;0.4167;0.4333;0.4444;0.4889;0.5889;0.6333;1.0" keySplines="0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1" values="M264 262 Q250 310 298 322;M264 262 Q250 310 298 322;M264 262 Q250 300 300 301;M264 262 Q250 267 300 236;M264 262 Q250 310 298 322;M264 262 Q250 307 298 316;M264 262 Q250 310 298 322;M264 262 Q250 307 298 316;M264 262 Q250 310 298 322;M264 262 Q250 307 298 316;M264 262 Q250 310 298 322;M264 262 Q250 307 298 316;M264 262 Q250 310 298 322;M264 262 Q250 307 298 316;M264 262 Q250 310 298 322;M264 262 Q250 307 298 316;M264 262 Q250 310 298 322;M264 262 Q250 310 298 322;M264 262 Q250 267 300 236;M264 262 Q250 300 300 301;M264 262 Q250 310 298 322;M264 262 Q250 310 298 322" />
     </path>
-    <path d="M456 262 Q470 306 424 322" fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
-      <animate attributeName="d" dur="9.0s" repeatCount="indefinite" keyTimes="0.0;0.2056;0.2222;0.2389;0.2556;0.2722;0.2889;0.3056;0.3222;0.3389;0.3556;0.3722;0.3889;0.4056;0.4222;0.4389;0.4556;0.4722;0.4889;1.0" values="M456 262 Q470 306 424 322;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322" />
+    <path d="M456 262 Q470 310 422 322" fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="d" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.0278;0.0889;0.1889;0.2333;0.25;0.2667;0.2833;0.3;0.3167;0.3333;0.35;0.3667;0.3833;0.4;0.4167;0.4333;0.4444;0.4889;0.5889;0.6333;1.0" keySplines="0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1" values="M456 262 Q470 310 422 322;M456 262 Q470 310 422 322;M456 262 Q470 300 420 301;M456 262 Q470 267 420 236;M456 262 Q470 310 422 322;M456 262 Q470 310 422 322;M456 262 Q470 307 422 316;M456 262 Q470 310 422 322;M456 262 Q470 307 422 316;M456 262 Q470 310 422 322;M456 262 Q470 307 422 316;M456 262 Q470 310 422 322;M456 262 Q470 307 422 316;M456 262 Q470 310 422 322;M456 262 Q470 307 422 316;M456 262 Q470 310 422 322;M456 262 Q470 307 422 316;M456 262 Q470 310 422 322;M456 262 Q470 267 420 236;M456 262 Q470 300 420 301;M456 262 Q470 310 422 322;M456 262 Q470 310 422 322" />
     </path>
-    <circle cx="298" cy="322" r="11" fill="#f2b58a">
-      <animate attributeName="cy" dur="9.0s" repeatCount="indefinite" keyTimes="0.0;0.1889;0.2056;0.2222;0.2389;0.2556;0.2722;0.2889;0.3056;0.3222;0.3389;0.3556;0.3722;0.3889;0.4056;0.4222;0.4389;0.4556;0.4722;0.4889;1.0" values="322;322;316;322;316;322;316;322;316;322;316;322;316;322;316;322;316;322;316;322;322" />
-    </circle>
-    <circle cx="422" cy="322" r="11" fill="#f2b58a">
-      <animate attributeName="cy" dur="9.0s" repeatCount="indefinite" keyTimes="0.0;0.2056;0.2222;0.2389;0.2556;0.2722;0.2889;0.3056;0.3222;0.3389;0.3556;0.3722;0.3889;0.4056;0.4222;0.4389;0.4556;0.4722;0.4889;1.0" values="322;322;316;322;316;322;316;322;316;322;316;322;316;322;316;322;316;322;316;322" />
-    </circle>
+    <g>
+      <animateTransform attributeName="transform" type="translate" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.0278;0.0889;0.1889;0.2333;0.25;0.2667;0.2833;0.3;0.3167;0.3333;0.35;0.3667;0.3833;0.4;0.4167;0.4333;0.4444;0.4889;0.5889;0.6333;1.0" keySplines="0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1" values="298 322;298 322;300 301;300 236;298 322;298 316;298 322;298 316;298 322;298 316;298 322;298 316;298 322;298 316;298 322;298 316;298 322;298 322;300 236;300 301;298 322;298 322" />
+      <g transform="">
+        <!-- thumb -->
+        <path d="M-8 -1 L-16 6" stroke="#f2b58a" stroke-width="5.5" stroke-linecap="round" />
+        <!-- fingers -->
+        <path d="M-7 3 L-8 14 M-2.5 5 L-3 17 M2.5 5 L3 17 M7 3 L8 14" stroke="#f2b58a" stroke-width="4.6" stroke-linecap="round" />
+        <path d="M-7 3 L-8 14 M-2.5 5 L-3 17 M2.5 5 L3 17 M7 3 L8 14" stroke="#c9865a" stroke-width="0.8" stroke-linecap="round" stroke-opacity="0.5" />
+        <!-- palm -->
+        <ellipse cx="0" cy="-1" rx="11.5" ry="10" fill="#f2b58a" />
+        <path d="M-6 -3 q6 -3 12 0" stroke="#c9865a" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-opacity="0.55" />
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.0278;0.0889;0.1889;0.2333;0.25;0.2667;0.2833;0.3;0.3167;0.3333;0.35;0.3667;0.3833;0.4;0.4167;0.4333;0.4444;0.4889;0.5889;0.6333;1.0" keySplines="0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1" values="422 322;422 322;420 301;420 236;422 322;422 322;422 316;422 322;422 316;422 322;422 316;422 322;422 316;422 322;422 316;422 322;422 316;422 322;420 236;420 301;422 322;422 322" />
+      <g transform="scale(-1,1)">
+        <!-- thumb -->
+        <path d="M-8 -1 L-16 6" stroke="#f2b58a" stroke-width="5.5" stroke-linecap="round" />
+        <!-- fingers -->
+        <path d="M-7 3 L-8 14 M-2.5 5 L-3 17 M2.5 5 L3 17 M7 3 L8 14" stroke="#f2b58a" stroke-width="4.6" stroke-linecap="round" />
+        <path d="M-7 3 L-8 14 M-2.5 5 L-3 17 M2.5 5 L3 17 M7 3 L8 14" stroke="#c9865a" stroke-width="0.8" stroke-linecap="round" stroke-opacity="0.5" />
+        <!-- palm -->
+        <ellipse cx="0" cy="-1" rx="11.5" ry="10" fill="#f2b58a" />
+        <path d="M-6 -3 q6 -3 12 0" stroke="#c9865a" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-opacity="0.55" />
+      </g>
+    </g>
   </g>
 
   <!-- Lights out -->
-  <rect width="720" height="340" rx="14" fill="#03040a" opacity="0">
+  <rect width="720" height="340" rx="14" fill="#000000" opacity="0">
     <animate attributeName="opacity" dur="9.0s" repeatCount="indefinite"
-      keyTimes="0;0.6333;0.7111;0.8444;0.9333;1" values="0;0;0.95;0.95;0;0" />
+      keyTimes="0;0.6333;0.7111;0.8444;0.9333;1" values="0;0;1;1;0;0" />
   </rect>
 </svg>
