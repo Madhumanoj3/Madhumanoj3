@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 120" width="100%" height="120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05080f" /><stop offset="50%" stop-color="#080c1c" /><stop offset="100%" stop-color="#050710" />
+    </linearGradient>
+    <linearGradient id="bd" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#312e81" /><stop offset="50%" stop-color="#22d3ee" /><stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+    <filter id="g"><feGaussianBlur stdDeviation="3" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
+  </defs>
+  <rect width="820" height="120" rx="10" fill="url(#bg)" stroke="url(#bd)" stroke-width="1.2" />
+  <path d="M 8 20 L 8 8 L 20 8" stroke="#22d3ee" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <path d="M 812 20 L 812 8 L 800 8" stroke="#22d3ee" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <path d="M 8 100 L 8 112 L 20 112" stroke="#22d3ee" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <path d="M 812 100 L 812 112 L 800 112" stroke="#22d3ee" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <text x="32" y="56" font-family="Georgia, serif" font-size="44" font-weight="bold" fill="#22d3ee" opacity="0.9" filter="url(#g)">&#8220;</text>
+  <text x="64" y="52" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="16" font-style="italic" font-weight="500" fill="#f1f5f9">
+    Practical engineering over theory &#8212; ship real projects, learn by building.
+  </text>
+  <text x="760" y="88" text-anchor="end" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" fill="#818cf8" letter-spacing="1">
+    &#8212; Madhu Manoj
+  </text>
+</svg>
