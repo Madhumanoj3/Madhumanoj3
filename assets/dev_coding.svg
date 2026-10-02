@@ -62,6 +62,7 @@
     <circle cx="60" cy="260" r="1.2" fill="#22d3ee" class="blink" style="animation-delay:-.5s" />
   </g>
 
+  <g transform="translate(0,46)">
   <!-- Floating dev symbols (left) -->
   <g class="f1">
     <text x="232" y="150" class="sym" font-size="84" fill="#fb923c" font-weight="400">{</text>
@@ -71,9 +72,9 @@
     <text x="200" y="102" text-anchor="middle" class="sym" font-size="12" fill="#e9e5ff">C+</text>
   </g>
   <g class="f3">
-    <rect x="160" y="168" width="40" height="8" rx="2" fill="#f472b6" />
-    <rect x="160" y="182" width="40" height="8" rx="2" fill="#ec4899" />
-    <rect x="160" y="196" width="40" height="8" rx="2" fill="#db2777" />
+    <rect x="160" y="120" width="40" height="8" rx="2" fill="#f472b6" />
+    <rect x="160" y="134" width="40" height="8" rx="2" fill="#ec4899" />
+    <rect x="160" y="148" width="40" height="8" rx="2" fill="#db2777" />
   </g>
   <g class="f4">
     <rect x="262" y="48" width="38" height="38" rx="5" fill="#f472b6" />
@@ -104,6 +105,8 @@
     <line x1="392" y1="30" x2="392" y2="48" stroke="#fdba4d" class="rise" style="animation-delay:-1.8s" />
   </g>
 
+  </g>
+
   <!-- Floating holo panel (code typing) -->
   <g class="f1" transform="translate(0,0)">
     <rect x="560" y="205" width="140" height="92" rx="8" fill="#0f1220" stroke="#22d3ee" stroke-opacity="0.6" />
@@ -124,6 +127,7 @@
   <!-- Desk -->
   <rect x="150" y="328" width="420" height="12" rx="6" fill="#161a2b" />
 
+  <g transform="translate(360,332) scale(0.74) translate(-360,-332)">
   <!-- Chair -->
   <g>
     <path d="M212 332 C206 214 236 150 286 132 L434 132 C484 150 514 214 508 332 Z" fill="url(#chair)" />
@@ -179,54 +183,52 @@
     <!-- Hands typing behind the laptop -->
     <g opacity="0">
       <animate attributeName="opacity" dur="9.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2333;0.4444;1" values="0;1;0;0" />
-      <path d="M264 262 Q252 291 278 286" fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
-        <animate attributeName="d" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.2333;0.2667;0.2833;0.3;0.3167;0.3333;0.35;0.3667;0.3833;0.4;0.4111;0.4444;1.0" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1" values="M264 262 Q252 291 278 286;M264 262 Q252 291 278 286;M264 262 Q252 289 326 282;M264 262 Q252 286 326 276;M264 262 Q252 289 326 282;M264 262 Q252 286 326 276;M264 262 Q252 289 326 282;M264 262 Q252 286 326 276;M264 262 Q252 289 326 282;M264 262 Q252 286 326 276;M264 262 Q252 289 326 282;M264 262 Q252 289 326 282;M264 262 Q252 291 278 286;M264 262 Q252 291 278 286" />
+      <path d="M268 238 Q254 277 278 279" fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+        <animate attributeName="d" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.2333;0.2667;0.2833;0.3;0.3167;0.3333;0.35;0.3667;0.3833;0.4;0.4111;0.4444;1.0" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1" values="M268 238 Q254 277 278 279;M268 238 Q254 277 278 279;M268 238 Q254 275 326 275;M268 238 Q254 272 326 269;M268 238 Q254 275 326 275;M268 238 Q254 272 326 269;M268 238 Q254 275 326 275;M268 238 Q254 272 326 269;M268 238 Q254 275 326 275;M268 238 Q254 272 326 269;M268 238 Q254 275 326 275;M268 238 Q254 275 326 275;M268 238 Q254 277 278 279;M268 238 Q254 277 278 279" />
       </path>
       <g>
         <animateTransform attributeName="transform" type="translate" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.2333;0.2667;0.2833;0.3;0.3167;0.3333;0.35;0.3667;0.3833;0.4;0.4111;0.4444;1.0" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1" values="278 292;278 292;326 288;326 282;326 288;326 282;326 288;326 282;326 288;326 282;326 288;326 288;278 292;278 292" />
         <g transform="">
-        <!-- cuff -->
-        <rect x="-12.5" y="-17" width="25" height="11" rx="4" fill="#1d4ed8" />
-        <path d="M-8 -16 v9 M-3 -16 v9 M3 -16 v9 M8 -16 v9" stroke="#1e3a8a" stroke-width="1" stroke-opacity="0.7" />
+        <!-- sleeve end -->
+        <rect x="-14.5" y="-21" width="29" height="14" rx="7" fill="#2563eb" />
+        <path d="M-12 -8 Q0 -4 12 -8" stroke="#93c5fd" stroke-width="1.6" fill="none" stroke-linecap="round" />
         <!-- thumb -->
-        <path d="M-9 -3 Q-17 0 -17 9" stroke="#e8a877" stroke-width="6.5" fill="none" stroke-linecap="round" />
+        <path d="M-10 -1 Q-19 1 -18.5 11" stroke="#f2b58a" stroke-width="7.5" fill="none" stroke-linecap="round" />
         <!-- fingers -->
-        <g stroke="#f2b58a" stroke-width="5.4" stroke-linecap="round" fill="none">
-          <path d="M-7.5 7 Q-8.5 15 -8 21" /><path d="M-2.5 8 Q-3 17 -2.6 25" />
-          <path d="M2.5 8 Q3 16 2.6 23" /><path d="M7.5 7 Q8.5 13 8 18" />
+        <g stroke="#f2b58a" stroke-width="6.6" stroke-linecap="round" fill="none">
+          <path d="M-9.3 8 L-9.3 20" /><path d="M-3.1 8 L-3.1 24" /><path d="M3.1 8 L3.1 22" /><path d="M9.3 8 L9.3 17" />
         </g>
-        <g stroke="#c9865a" stroke-width="0.9" stroke-linecap="round" stroke-opacity="0.55" fill="none">
-          <path d="M-10 13 h4.4 M-5 15 h4.4 M0.2 14 h4.4 M5.2 12 h4.4" />
+        <g stroke="#d58b5c" stroke-width="0.9" stroke-linecap="round" stroke-opacity="0.8">
+          <path d="M-6.2 12 L-6.2 22" /><path d="M0 12 L0 24" /><path d="M6.2 12 L6.2 19" />
         </g>
-        <!-- back of hand -->
-        <path d="M-11.5 -8 C-14 3 -13 8 -9 10.5 L9 10.5 C13 8 14 3 11.5 -8 Z" fill="#f2b58a" />
-        <path d="M-6 -3 Q0 -7 6 -3" stroke="#d99a6c" stroke-width="1.4" fill="none" stroke-linecap="round" />
-        <ellipse cx="-3" cy="0" rx="4" ry="2.4" fill="#ffd9b8" opacity="0.5" />
+        <!-- palm / back of hand -->
+        <path d="M-12.5 -8 Q-15 6 -10.5 12.5 L10.5 12.5 Q15 6 12.5 -8 Z" fill="#f2b58a" />
+        <path d="M-7 8 q1.5 2 3.4 0 M-1.4 8 q1.5 2 3.4 0 M4.2 8 q1.5 2 3.4 0" stroke="#d58b5c" stroke-width="1" fill="none" stroke-linecap="round" />
+        <ellipse cx="-4" cy="-2" rx="4.5" ry="2.6" fill="#ffd9b8" opacity="0.55" />
         </g>
       </g>
-      <path d="M456 262 Q468 291 442 286" fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
-        <animate attributeName="d" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.2333;0.2667;0.2833;0.3;0.3167;0.3333;0.35;0.3667;0.3833;0.4;0.4111;0.4444;1.0" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1" values="M456 262 Q468 291 442 286;M456 262 Q468 291 442 286;M456 262 Q468 289 394 282;M456 262 Q468 289 394 282;M456 262 Q468 286 394 276;M456 262 Q468 289 394 282;M456 262 Q468 286 394 276;M456 262 Q468 289 394 282;M456 262 Q468 286 394 276;M456 262 Q468 289 394 282;M456 262 Q468 286 394 276;M456 262 Q468 289 394 282;M456 262 Q468 291 442 286;M456 262 Q468 291 442 286" />
+      <path d="M452 238 Q466 277 442 279" fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+        <animate attributeName="d" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.2333;0.2667;0.2833;0.3;0.3167;0.3333;0.35;0.3667;0.3833;0.4;0.4111;0.4444;1.0" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1" values="M452 238 Q466 277 442 279;M452 238 Q466 277 442 279;M452 238 Q466 275 394 275;M452 238 Q466 275 394 275;M452 238 Q466 272 394 269;M452 238 Q466 275 394 275;M452 238 Q466 272 394 269;M452 238 Q466 275 394 275;M452 238 Q466 272 394 269;M452 238 Q466 275 394 275;M452 238 Q466 272 394 269;M452 238 Q466 275 394 275;M452 238 Q466 277 442 279;M452 238 Q466 277 442 279" />
       </path>
       <g>
         <animateTransform attributeName="transform" type="translate" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.2333;0.2667;0.2833;0.3;0.3167;0.3333;0.35;0.3667;0.3833;0.4;0.4111;0.4444;1.0" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1" values="442 292;442 292;394 288;394 288;394 282;394 288;394 282;394 288;394 282;394 288;394 282;394 288;442 292;442 292" />
         <g transform="scale(-1,1)">
-        <!-- cuff -->
-        <rect x="-12.5" y="-17" width="25" height="11" rx="4" fill="#1d4ed8" />
-        <path d="M-8 -16 v9 M-3 -16 v9 M3 -16 v9 M8 -16 v9" stroke="#1e3a8a" stroke-width="1" stroke-opacity="0.7" />
+        <!-- sleeve end -->
+        <rect x="-14.5" y="-21" width="29" height="14" rx="7" fill="#2563eb" />
+        <path d="M-12 -8 Q0 -4 12 -8" stroke="#93c5fd" stroke-width="1.6" fill="none" stroke-linecap="round" />
         <!-- thumb -->
-        <path d="M-9 -3 Q-17 0 -17 9" stroke="#e8a877" stroke-width="6.5" fill="none" stroke-linecap="round" />
+        <path d="M-10 -1 Q-19 1 -18.5 11" stroke="#f2b58a" stroke-width="7.5" fill="none" stroke-linecap="round" />
         <!-- fingers -->
-        <g stroke="#f2b58a" stroke-width="5.4" stroke-linecap="round" fill="none">
-          <path d="M-7.5 7 Q-8.5 15 -8 21" /><path d="M-2.5 8 Q-3 17 -2.6 25" />
-          <path d="M2.5 8 Q3 16 2.6 23" /><path d="M7.5 7 Q8.5 13 8 18" />
+        <g stroke="#f2b58a" stroke-width="6.6" stroke-linecap="round" fill="none">
+          <path d="M-9.3 8 L-9.3 20" /><path d="M-3.1 8 L-3.1 24" /><path d="M3.1 8 L3.1 22" /><path d="M9.3 8 L9.3 17" />
         </g>
-        <g stroke="#c9865a" stroke-width="0.9" stroke-linecap="round" stroke-opacity="0.55" fill="none">
-          <path d="M-10 13 h4.4 M-5 15 h4.4 M0.2 14 h4.4 M5.2 12 h4.4" />
+        <g stroke="#d58b5c" stroke-width="0.9" stroke-linecap="round" stroke-opacity="0.8">
+          <path d="M-6.2 12 L-6.2 22" /><path d="M0 12 L0 24" /><path d="M6.2 12 L6.2 19" />
         </g>
-        <!-- back of hand -->
-        <path d="M-11.5 -8 C-14 3 -13 8 -9 10.5 L9 10.5 C13 8 14 3 11.5 -8 Z" fill="#f2b58a" />
-        <path d="M-6 -3 Q0 -7 6 -3" stroke="#d99a6c" stroke-width="1.4" fill="none" stroke-linecap="round" />
-        <ellipse cx="-3" cy="0" rx="4" ry="2.4" fill="#ffd9b8" opacity="0.5" />
+        <!-- palm / back of hand -->
+        <path d="M-12.5 -8 Q-15 6 -10.5 12.5 L10.5 12.5 Q15 6 12.5 -8 Z" fill="#f2b58a" />
+        <path d="M-7 8 q1.5 2 3.4 0 M-1.4 8 q1.5 2 3.4 0 M4.2 8 q1.5 2 3.4 0" stroke="#d58b5c" stroke-width="1" fill="none" stroke-linecap="round" />
+        <ellipse cx="-4" cy="-2" rx="4.5" ry="2.6" fill="#ffd9b8" opacity="0.55" />
         </g>
       </g>
     </g>
@@ -252,57 +254,57 @@
     <!-- Hands in front: grip the lid top to open and close it -->
     <g opacity="1">
       <animate attributeName="opacity" dur="9.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2333;0.4444;1" values="1;0;1;1" />
-      <path d="M264 262 Q252 304 280 312" fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
-        <animate attributeName="d" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.0278;0.0889;0.1889;0.2333;0.4444;0.4889;0.5889;0.6333;1.0" keySplines="0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1" values="M264 262 Q252 304 280 312;M264 262 Q252 304 280 312;M264 262 Q252 296 300 295;M264 262 Q252 263 300 230;M264 262 Q252 291 278 286;M264 262 Q252 291 278 286;M264 262 Q252 263 300 230;M264 262 Q252 296 300 295;M264 262 Q252 304 280 312;M264 262 Q252 304 280 312" />
+      <path d="M268 238 Q254 290 280 305" fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+        <animate attributeName="d" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.0278;0.0889;0.1889;0.2333;0.4444;0.4889;0.5889;0.6333;1.0" keySplines="0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1" values="M268 238 Q254 290 280 305;M268 238 Q254 290 280 305;M268 238 Q254 282 300 288;M268 238 Q254 249 300 223;M268 238 Q254 277 278 279;M268 238 Q254 277 278 279;M268 238 Q254 249 300 223;M268 238 Q254 282 300 288;M268 238 Q254 290 280 305;M268 238 Q254 290 280 305" />
       </path>
       <g>
         <animateTransform attributeName="transform" type="translate" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.0278;0.0889;0.1889;0.2333;0.4444;0.4889;0.5889;0.6333;1.0" keySplines="0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1" values="280 318;280 318;300 301;300 236;278 292;278 292;300 236;300 301;280 318;280 318" />
         <g transform="">
-        <!-- cuff -->
-        <rect x="-12.5" y="-17" width="25" height="11" rx="4" fill="#1d4ed8" />
-        <path d="M-8 -16 v9 M-3 -16 v9 M3 -16 v9 M8 -16 v9" stroke="#1e3a8a" stroke-width="1" stroke-opacity="0.7" />
+        <!-- sleeve end -->
+        <rect x="-14.5" y="-21" width="29" height="14" rx="7" fill="#2563eb" />
+        <path d="M-12 -8 Q0 -4 12 -8" stroke="#93c5fd" stroke-width="1.6" fill="none" stroke-linecap="round" />
         <!-- thumb -->
-        <path d="M-9 -3 Q-17 0 -17 9" stroke="#e8a877" stroke-width="6.5" fill="none" stroke-linecap="round" />
+        <path d="M-10 -1 Q-19 1 -18.5 11" stroke="#f2b58a" stroke-width="7.5" fill="none" stroke-linecap="round" />
         <!-- fingers -->
-        <g stroke="#f2b58a" stroke-width="5.4" stroke-linecap="round" fill="none">
-          <path d="M-7.5 7 Q-8.5 15 -8 21" /><path d="M-2.5 8 Q-3 17 -2.6 25" />
-          <path d="M2.5 8 Q3 16 2.6 23" /><path d="M7.5 7 Q8.5 13 8 18" />
+        <g stroke="#f2b58a" stroke-width="6.6" stroke-linecap="round" fill="none">
+          <path d="M-9.3 8 L-9.3 20" /><path d="M-3.1 8 L-3.1 24" /><path d="M3.1 8 L3.1 22" /><path d="M9.3 8 L9.3 17" />
         </g>
-        <g stroke="#c9865a" stroke-width="0.9" stroke-linecap="round" stroke-opacity="0.55" fill="none">
-          <path d="M-10 13 h4.4 M-5 15 h4.4 M0.2 14 h4.4 M5.2 12 h4.4" />
+        <g stroke="#d58b5c" stroke-width="0.9" stroke-linecap="round" stroke-opacity="0.8">
+          <path d="M-6.2 12 L-6.2 22" /><path d="M0 12 L0 24" /><path d="M6.2 12 L6.2 19" />
         </g>
-        <!-- back of hand -->
-        <path d="M-11.5 -8 C-14 3 -13 8 -9 10.5 L9 10.5 C13 8 14 3 11.5 -8 Z" fill="#f2b58a" />
-        <path d="M-6 -3 Q0 -7 6 -3" stroke="#d99a6c" stroke-width="1.4" fill="none" stroke-linecap="round" />
-        <ellipse cx="-3" cy="0" rx="4" ry="2.4" fill="#ffd9b8" opacity="0.5" />
+        <!-- palm / back of hand -->
+        <path d="M-12.5 -8 Q-15 6 -10.5 12.5 L10.5 12.5 Q15 6 12.5 -8 Z" fill="#f2b58a" />
+        <path d="M-7 8 q1.5 2 3.4 0 M-1.4 8 q1.5 2 3.4 0 M4.2 8 q1.5 2 3.4 0" stroke="#d58b5c" stroke-width="1" fill="none" stroke-linecap="round" />
+        <ellipse cx="-4" cy="-2" rx="4.5" ry="2.6" fill="#ffd9b8" opacity="0.55" />
         </g>
       </g>
-      <path d="M456 262 Q468 304 440 312" fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
-        <animate attributeName="d" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.0278;0.0889;0.1889;0.2333;0.4444;0.4889;0.5889;0.6333;1.0" keySplines="0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1" values="M456 262 Q468 304 440 312;M456 262 Q468 304 440 312;M456 262 Q468 296 420 295;M456 262 Q468 263 420 230;M456 262 Q468 291 442 286;M456 262 Q468 291 442 286;M456 262 Q468 263 420 230;M456 262 Q468 296 420 295;M456 262 Q468 304 440 312;M456 262 Q468 304 440 312" />
+      <path d="M452 238 Q466 290 440 305" fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+        <animate attributeName="d" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.0278;0.0889;0.1889;0.2333;0.4444;0.4889;0.5889;0.6333;1.0" keySplines="0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1" values="M452 238 Q466 290 440 305;M452 238 Q466 290 440 305;M452 238 Q466 282 420 288;M452 238 Q466 249 420 223;M452 238 Q466 277 442 279;M452 238 Q466 277 442 279;M452 238 Q466 249 420 223;M452 238 Q466 282 420 288;M452 238 Q466 290 440 305;M452 238 Q466 290 440 305" />
       </path>
       <g>
         <animateTransform attributeName="transform" type="translate" dur="9.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0.0;0.0278;0.0889;0.1889;0.2333;0.4444;0.4889;0.5889;0.6333;1.0" keySplines="0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1" values="440 318;440 318;420 301;420 236;442 292;442 292;420 236;420 301;440 318;440 318" />
         <g transform="scale(-1,1)">
-        <!-- cuff -->
-        <rect x="-12.5" y="-17" width="25" height="11" rx="4" fill="#1d4ed8" />
-        <path d="M-8 -16 v9 M-3 -16 v9 M3 -16 v9 M8 -16 v9" stroke="#1e3a8a" stroke-width="1" stroke-opacity="0.7" />
+        <!-- sleeve end -->
+        <rect x="-14.5" y="-21" width="29" height="14" rx="7" fill="#2563eb" />
+        <path d="M-12 -8 Q0 -4 12 -8" stroke="#93c5fd" stroke-width="1.6" fill="none" stroke-linecap="round" />
         <!-- thumb -->
-        <path d="M-9 -3 Q-17 0 -17 9" stroke="#e8a877" stroke-width="6.5" fill="none" stroke-linecap="round" />
+        <path d="M-10 -1 Q-19 1 -18.5 11" stroke="#f2b58a" stroke-width="7.5" fill="none" stroke-linecap="round" />
         <!-- fingers -->
-        <g stroke="#f2b58a" stroke-width="5.4" stroke-linecap="round" fill="none">
-          <path d="M-7.5 7 Q-8.5 15 -8 21" /><path d="M-2.5 8 Q-3 17 -2.6 25" />
-          <path d="M2.5 8 Q3 16 2.6 23" /><path d="M7.5 7 Q8.5 13 8 18" />
+        <g stroke="#f2b58a" stroke-width="6.6" stroke-linecap="round" fill="none">
+          <path d="M-9.3 8 L-9.3 20" /><path d="M-3.1 8 L-3.1 24" /><path d="M3.1 8 L3.1 22" /><path d="M9.3 8 L9.3 17" />
         </g>
-        <g stroke="#c9865a" stroke-width="0.9" stroke-linecap="round" stroke-opacity="0.55" fill="none">
-          <path d="M-10 13 h4.4 M-5 15 h4.4 M0.2 14 h4.4 M5.2 12 h4.4" />
+        <g stroke="#d58b5c" stroke-width="0.9" stroke-linecap="round" stroke-opacity="0.8">
+          <path d="M-6.2 12 L-6.2 22" /><path d="M0 12 L0 24" /><path d="M6.2 12 L6.2 19" />
         </g>
-        <!-- back of hand -->
-        <path d="M-11.5 -8 C-14 3 -13 8 -9 10.5 L9 10.5 C13 8 14 3 11.5 -8 Z" fill="#f2b58a" />
-        <path d="M-6 -3 Q0 -7 6 -3" stroke="#d99a6c" stroke-width="1.4" fill="none" stroke-linecap="round" />
-        <ellipse cx="-3" cy="0" rx="4" ry="2.4" fill="#ffd9b8" opacity="0.5" />
+        <!-- palm / back of hand -->
+        <path d="M-12.5 -8 Q-15 6 -10.5 12.5 L10.5 12.5 Q15 6 12.5 -8 Z" fill="#f2b58a" />
+        <path d="M-7 8 q1.5 2 3.4 0 M-1.4 8 q1.5 2 3.4 0 M4.2 8 q1.5 2 3.4 0" stroke="#d58b5c" stroke-width="1" fill="none" stroke-linecap="round" />
+        <ellipse cx="-4" cy="-2" rx="4.5" ry="2.6" fill="#ffd9b8" opacity="0.55" />
         </g>
       </g>
     </g>
+  </g>
+
   </g>
 
   <!-- Lights out -->
