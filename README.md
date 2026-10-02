@@ -67,7 +67,7 @@
 </td>
 <td width="50%" align="center">
   <h4>🌱 Active Deep Dives</h4>
-  <p><b>FastAPI + React + TypeScript</b><br /><sub>Supabase · Computer Vision · ML</sub></p>
+  <p><b>FastAPI + React</b><br /><sub>Supabase · Computer Vision · ML</sub></p>
 </td>
 </tr>
 <tr>
@@ -92,7 +92,7 @@
   <h3>⭐ SmartSense — Predict. Rest. Recover.</h3>
   <p><i>AI-based multimodal wearable for predictive driver drowsiness detection and intelligent alert/rest management — SIH 2026 (PS 26220).</i></p>
   <p>
-    An <b>ESP32</b> streams EEG/EOG from a <b>BioAmp EXG</b> sensor to a <b>React 18 + TypeScript + Vite</b> dashboard that computes a 0-100 vigilance score through a rule-based Rest Decision Engine and runs a six-stage safety loop:
+    An <b>ESP32</b> streams EEG/EOG from a <b>BioAmp EXG</b> sensor to a <b>React 18 + Vite</b> dashboard that computes a 0-100 vigilance score through a rule-based Rest Decision Engine and runs a six-stage safety loop:
     <br /><b>DETECT → PREDICT → ALERT → REST → RECOVER → RESUME</b>
   </p>
   <p>
@@ -105,7 +105,6 @@
   </p>
   <p>
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
     <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
     <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
     <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
@@ -136,11 +135,10 @@
 </td>
 <td width="50%" valign="top">
   <h4>🎓 Scholar Sarthi — Scholarship &amp; Counselling Aid</h4>
-  <p>FastAPI + React + TypeScript platform (SIH 2026 prototype) for scholarship discovery, eligibility checks and step-by-step applications. A <b>PaddleOCR + LayoutLMv3</b> pipeline verifies documents and flags cross-document mismatches; a deterministic rule engine decides eligibility — AI assists, humans approve.</p>
+  <p>FastAPI + React platform (SIH 2026 prototype) for scholarship discovery, eligibility checks and step-by-step applications. A <b>PaddleOCR + LayoutLMv3</b> pipeline verifies documents and flags cross-document mismatches; a deterministic rule engine decides eligibility — AI assists, humans approve.</p>
   <p>
     <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
     <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
     <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
   </p>
 </td>
@@ -187,7 +185,7 @@
 
 <div align="center">
 <table>
-<tr><td align="right" width="150"><b>Languages</b></td><td><table><tr><td align="center" width="90"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="48" height="48" alt="Java" /><br /><sub><b>Java</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="48" height="48" alt="Python" /><br /><sub><b>Python</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=c&theme=dark" width="48" height="48" alt="C" /><br /><sub><b>C</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="48" height="48" alt="C++" /><br /><sub><b>C++</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="48" height="48" alt="JavaScript" /><br /><sub><b>JavaScript</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=ts&theme=dark" width="48" height="48" alt="TypeScript" /><br /><sub><b>TypeScript</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="48" height="48" alt="HTML" /><br /><sub><b>HTML</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="48" height="48" alt="CSS" /><br /><sub><b>CSS</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=dart&theme=dark" width="48" height="48" alt="Dart" /><br /><sub><b>Dart</b></sub></td></tr></table></td></tr>
+<tr><td align="right" width="150"><b>Languages</b></td><td><table><tr><td align="center" width="90"><img src="https://skillicons.dev/icons?i=java&theme=dark" width="48" height="48" alt="Java" /><br /><sub><b>Java</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=py&theme=dark" width="48" height="48" alt="Python" /><br /><sub><b>Python</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=c&theme=dark" width="48" height="48" alt="C" /><br /><sub><b>C</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="48" height="48" alt="C++" /><br /><sub><b>C++</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=js&theme=dark" width="48" height="48" alt="JavaScript" /><br /><sub><b>JavaScript</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=html&theme=dark" width="48" height="48" alt="HTML" /><br /><sub><b>HTML</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=css&theme=dark" width="48" height="48" alt="CSS" /><br /><sub><b>CSS</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=dart&theme=dark" width="48" height="48" alt="Dart" /><br /><sub><b>Dart</b></sub></td></tr></table></td></tr>
 <tr><td align="right" width="150"><b>Frontend &amp; Mobile</b></td><td><table><tr><td align="center" width="90"><img src="https://skillicons.dev/icons?i=react&theme=dark" width="48" height="48" alt="React" /><br /><sub><b>React</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=vite&theme=dark" width="48" height="48" alt="Vite" /><br /><sub><b>Vite</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="48" height="48" alt="Tailwind" /><br /><sub><b>Tailwind</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=flutter&theme=dark" width="48" height="48" alt="Flutter" /><br /><sub><b>Flutter</b></sub></td></tr></table></td></tr>
 <tr><td align="right" width="150"><b>Backend</b></td><td><table><tr><td align="center" width="90"><img src="https://skillicons.dev/icons?i=django&theme=dark" width="48" height="48" alt="Django" /><br /><sub><b>Django</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="48" height="48" alt="FastAPI" /><br /><sub><b>FastAPI</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48" height="48" alt="Node.js" /><br /><sub><b>Node.js</b></sub></td></tr></table></td></tr>
 <tr><td align="right" width="150"><b>Databases</b></td><td><table><tr><td align="center" width="90"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="48" height="48" alt="PostgreSQL" /><br /><sub><b>PostgreSQL</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=supabase&theme=dark" width="48" height="48" alt="Supabase" /><br /><sub><b>Supabase</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=sqlite&theme=dark" width="48" height="48" alt="SQLite" /><br /><sub><b>SQLite</b></sub></td><td align="center" width="90"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="48" height="48" alt="MongoDB" /><br /><sub><b>MongoDB</b></sub></td></tr></table></td></tr>
@@ -247,7 +245,7 @@
 <p align="center">
   Physiological signal processing for driver safety (EEG, EOG via BioAmp EXG)<br />
   Real-time inference on embedded hardware (ESP32)<br />
-  Full-stack development with FastAPI + React + TypeScript + Supabase<br />
+  Full-stack development with FastAPI + React + Supabase<br />
   Computer vision and document intelligence (OCR, LayoutLMv3)<br />
   Machine learning for public-safety and citizen-facing systems<br />
   Geospatial data analysis and location-based clustering

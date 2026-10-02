@@ -178,27 +178,40 @@
 
     <!-- Laptop base -->
     <path d="M262 326 L458 326 L446 306 L274 306 Z" fill="#1a1d2c" stroke="#2d3142" stroke-width="1.5" />
-    <!-- Laptop lid (back) -->
-    <rect x="290" y="236" width="140" height="74" rx="8" fill="url(#lid)" stroke="#2d3142" stroke-width="2" />
-    <circle cx="360" cy="273" r="8" fill="#22d3ee" filter="url(#neon)">
-      <animate attributeName="opacity" values="0.55;1;0.55" dur="2s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="360" cy="273" r="3" fill="#e0fbff" />
+    <!-- Laptop lid (back): opens, works, closes -->
+    <g transform="translate(0,310)">
+      <g>
+        <animateTransform attributeName="transform" type="scale" dur="9.0s" repeatCount="indefinite" calcMode="spline"
+          keyTimes="0;0.0889;0.1889;0.4889;0.5889;1" values="1 0.12;1 0.12;1 1;1 1;1 0.12;1 0.12"
+          keySplines="0 0 1 1;0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1" />
+        <g transform="translate(0,-310)">
+          <rect x="290" y="236" width="140" height="74" rx="8" fill="url(#lid)" stroke="#2d3142" stroke-width="2" />
+          <circle cx="360" cy="273" r="8" fill="#22d3ee" filter="url(#neon)">
+            <animate attributeName="opacity" values="0.55;1;0.55" dur="2s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="360" cy="273" r="3" fill="#e0fbff" />
+        </g>
+      </g>
+    </g>
 
-    <!-- Arms + hands typing -->
-    <path fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
-      <animate attributeName="d" dur="0.5s" repeatCount="indefinite"
-        values="M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322" />
+    <!-- Arms + hands: type only while the laptop is open -->
+    <path d="M264 262 Q250 306 296 322" fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="d" dur="9.0s" repeatCount="indefinite" keyTimes="0.0;0.1889;0.2056;0.2222;0.2389;0.2556;0.2722;0.2889;0.3056;0.3222;0.3389;0.3556;0.3722;0.3889;0.4056;0.4222;0.4389;0.4556;0.4722;0.4889;1.0" values="M264 262 Q250 306 296 322;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 304 296 316;M264 262 Q250 306 296 322;M264 262 Q250 306 296 322" />
     </path>
-    <path fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
-      <animate attributeName="d" dur="0.5s" begin="-0.25s" repeatCount="indefinite"
-        values="M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322" />
+    <path d="M456 262 Q470 306 424 322" fill="none" stroke="url(#hoodie)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="d" dur="9.0s" repeatCount="indefinite" keyTimes="0.0;0.2056;0.2222;0.2389;0.2556;0.2722;0.2889;0.3056;0.3222;0.3389;0.3556;0.3722;0.3889;0.4056;0.4222;0.4389;0.4556;0.4722;0.4889;1.0" values="M456 262 Q470 306 424 322;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322;M456 262 Q470 304 424 316;M456 262 Q470 306 424 322" />
     </path>
     <circle cx="298" cy="322" r="11" fill="#f2b58a">
-      <animate attributeName="cy" values="322;316;322" dur="0.5s" repeatCount="indefinite" />
+      <animate attributeName="cy" dur="9.0s" repeatCount="indefinite" keyTimes="0.0;0.1889;0.2056;0.2222;0.2389;0.2556;0.2722;0.2889;0.3056;0.3222;0.3389;0.3556;0.3722;0.3889;0.4056;0.4222;0.4389;0.4556;0.4722;0.4889;1.0" values="322;322;316;322;316;322;316;322;316;322;316;322;316;322;316;322;316;322;316;322;322" />
     </circle>
     <circle cx="422" cy="322" r="11" fill="#f2b58a">
-      <animate attributeName="cy" values="322;316;322" dur="0.5s" begin="-0.25s" repeatCount="indefinite" />
+      <animate attributeName="cy" dur="9.0s" repeatCount="indefinite" keyTimes="0.0;0.2056;0.2222;0.2389;0.2556;0.2722;0.2889;0.3056;0.3222;0.3389;0.3556;0.3722;0.3889;0.4056;0.4222;0.4389;0.4556;0.4722;0.4889;1.0" values="322;322;316;322;316;322;316;322;316;322;316;322;316;322;316;322;316;322;316;322" />
     </circle>
   </g>
+
+  <!-- Lights out -->
+  <rect width="720" height="340" rx="14" fill="#03040a" opacity="0">
+    <animate attributeName="opacity" dur="9.0s" repeatCount="indefinite"
+      keyTimes="0;0.6333;0.7111;0.8444;0.9333;1" values="0;0;0.95;0.95;0;0" />
+  </rect>
 </svg>
