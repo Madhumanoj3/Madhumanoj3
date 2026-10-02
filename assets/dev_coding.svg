@@ -6,8 +6,12 @@
       <stop offset="100%" stop-color="#0b0d14" stop-opacity="0" />
     </radialGradient>
     <linearGradient id="hoodie" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#fdba4d" />
-      <stop offset="100%" stop-color="#f97316" />
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="chair" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#4c1d95" />
     </linearGradient>
     <linearGradient id="lid" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#1c1f2e" />
@@ -120,16 +124,24 @@
   <!-- Desk -->
   <rect x="150" y="328" width="420" height="12" rx="6" fill="#161a2b" />
 
+  <!-- Chair -->
+  <g>
+    <path d="M212 332 C206 214 236 150 286 132 L434 132 C484 150 514 214 508 332 Z" fill="url(#chair)" />
+    <path d="M236 332 C232 226 256 170 296 152 L424 152 C464 170 488 226 484 332 Z" fill="#2e1065" opacity="0.55" />
+    <path d="M212 332 C206 214 236 150 286 132 L434 132 C484 150 514 214 508 332" fill="none" stroke="#f472b6" stroke-width="3" stroke-opacity="0.85" />
+    <rect x="334" y="124" width="52" height="14" rx="7" fill="#6d28d9" stroke="#f472b6" stroke-width="2" />
+  </g>
+
   <!-- Character -->
   <g>
     <!-- Body / hoodie -->
     <path d="M238 332 C240 262 282 214 332 202 L388 202 C438 214 480 262 482 332 Z" fill="url(#hoodie)" />
-    <path d="M300 214 C320 232 400 232 420 214 L420 230 C395 246 325 246 300 230 Z" fill="#ea580c" opacity="0.55" />
+    <path d="M300 214 C320 232 400 232 420 214 L420 230 C395 246 325 246 300 230 Z" fill="#1d4ed8" opacity="0.55" />
     <!-- hood collar -->
-    <ellipse cx="360" cy="205" rx="36" ry="12" fill="#ea580c" />
+    <ellipse cx="360" cy="205" rx="36" ry="12" fill="#1e40af" />
     <!-- Hoodie strings -->
-    <line x1="344" y1="214" x2="342" y2="244" stroke="#fff7ed" stroke-width="2" stroke-linecap="round" />
-    <line x1="376" y1="214" x2="378" y2="244" stroke="#fff7ed" stroke-width="2" stroke-linecap="round" />
+    <line x1="344" y1="214" x2="342" y2="244" stroke="#e0f2fe" stroke-width="2" stroke-linecap="round" />
+    <line x1="376" y1="214" x2="378" y2="244" stroke="#e0f2fe" stroke-width="2" stroke-linecap="round" />
 
     <!-- Neck -->
     <rect x="346" y="168" width="28" height="36" rx="10" fill="#d99a6c" />
@@ -158,16 +170,11 @@
       <path d="M346 160 q14 12 28 0" stroke="#8a4a35" stroke-width="3" fill="none" stroke-linecap="round" />
       <!-- Light stubble hint -->
       <path d="M334 166 C344 178 376 178 386 166" stroke="#241833" stroke-opacity="0.18" stroke-width="5" fill="none" stroke-linecap="round" />
-      <!-- Screen glow on face -->
-      <ellipse cx="360" cy="160" rx="42" ry="26" fill="#22d3ee" opacity="0.18" class="flicker" />
       <!-- Headphones -->
       <path d="M312 128 C306 70 414 70 408 128" stroke="#22d3ee" stroke-width="5" fill="none" stroke-linecap="round" filter="url(#neon)" />
       <rect x="302" y="118" width="14" height="30" rx="7" fill="#0f1220" stroke="#22d3ee" stroke-width="2.5" />
       <rect x="404" y="118" width="14" height="30" rx="7" fill="#0f1220" stroke="#22d3ee" stroke-width="2.5" />
     </g>
-
-    <!-- Light beam from laptop -->
-    <path d="M300 238 L420 238 L440 150 L280 150 Z" fill="url(#beam)" class="flicker" />
 
     <!-- Laptop base -->
     <path d="M262 326 L458 326 L446 306 L274 306 Z" fill="#1a1d2c" stroke="#2d3142" stroke-width="1.5" />
