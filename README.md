@@ -41,6 +41,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/dev_coding.svg" width="620" alt="Developer coding on a laptop" />
+</p>
+
+<p align="center">
   Hey! I'm <b>Madhu Manoj</b>, a third-year <b>B.E. Computer Science and Engineering</b> student at <b>Mepco Schlenk Engineering College, Sivakasi</b> (Tamil Nadu, India).<br />
   I build full-stack web applications, develop AI/ML systems, and experiment with embedded hardware and IoT — then ship them as practical engineering prototypes.
 </p>
