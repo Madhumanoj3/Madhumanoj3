@@ -41,7 +41,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/dev_coding.svg" width="620" alt="Developer coding on a laptop" />
+  <img src="assets/dev_coding.svg" width="700" alt="Developer coding on a laptop" />
 </p>
 
 <p align="center">
